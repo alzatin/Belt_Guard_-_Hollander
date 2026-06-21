@@ -6,8 +6,8 @@
 
 ## Inputs
 
-- **H_pulley_radius** (number)
-- **L_pulley_radius** (number)
+- **H_pulley_r** (number)
+- **L_pulley_r** (number)
 
 
 
