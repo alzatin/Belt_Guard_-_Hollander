@@ -6,8 +6,14 @@
   "name": "Belt_Guard_-_Hollander",
   "ioValues": [
     {
-      "name": "Input",
-      "ioValue": 10
+      "name": "H_pulley_radius",
+      "ioValue": 6,
+      "currentEquation": "6"
+    },
+    {
+      "name": "L_pulley_radius",
+      "ioValue": 8,
+      "currentEquation": "8"
     }
   ],
   "topLevel": true,
@@ -26,8 +32,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.19959404600811909,
-      "y": 0.5335365853658537,
+      "x": 0.2699594046008119,
+      "y": 0.5213414634146342,
       "uniqueID": "id-4",
       "name": "Molecule",
       "topLevel": false,
@@ -76,8 +82,16 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
-      "uniqueID": "id-14"
+      "y": 0.3475609756097561,
+      "uniqueID": "id-14",
+      "name": "H_pulley_radius"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.43902439024390244,
+      "uniqueID": "id-17",
+      "name": "L_pulley_radius"
     }
   ],
   "allConnectors": [],
