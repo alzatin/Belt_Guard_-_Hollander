@@ -7,13 +7,11 @@
   "ioValues": [
     {
       "name": "H_pulley_r",
-      "ioValue": 6,
-      "currentEquation": "6"
+      "ioValue": 6
     },
     {
       "name": "L_pulley_r",
-      "ioValue": 8,
-      "currentEquation": "8"
+      "ioValue": 8
     }
   ],
   "topLevel": true,
@@ -29,6 +27,20 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.15384615384615385,
+      "uniqueID": "id-14",
+      "name": "H_pulley_r"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.24615384615384617,
+      "uniqueID": "id-17",
+      "name": "L_pulley_r"
     },
     {
       "atomType": "Molecule",
@@ -103,20 +115,6 @@
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.33536585365853655,
-      "uniqueID": "id-14",
-      "name": "H_pulley_r"
-    },
-    {
-      "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.43902439024390244,
-      "uniqueID": "id-17",
-      "name": "L_pulley_r"
     }
   ],
   "allConnectors": [],
