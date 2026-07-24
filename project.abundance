@@ -6,12 +6,29 @@
   "name": "Belt_Guard_-_Hollander",
   "ioValues": [
     {
-      "name": "H_pulley_r",
-      "ioValue": 6
+      "name": "H_pulley_d",
+      "ioValue": 3.37,
+      "currentEquation": "3.37"
     },
     {
-      "name": "L_pulley_r",
-      "ioValue": 8
+      "name": "L_pulley_d",
+      "ioValue": 8,
+      "currentEquation": "8"
+    },
+    {
+      "name": "Distance_b_pulleys",
+      "ioValue": 13,
+      "currentEquation": "13"
+    },
+    {
+      "name": "screw_1_d_from_l",
+      "ioValue": 6.25,
+      "currentEquation": "6.25"
+    },
+    {
+      "name": "screw_1_d_from_p_2",
+      "ioValue": 7.5,
+      "currentEquation": "7.5"
     }
   ],
   "topLevel": true,
@@ -31,20 +48,20 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "y": 0.2865853658536585,
       "uniqueID": "id-14",
-      "name": "H_pulley_r"
+      "name": "H_pulley_d"
     },
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "y": 0.3902439024390244,
       "uniqueID": "id-17",
-      "name": "L_pulley_r"
+      "name": "L_pulley_d"
     },
     {
       "atomType": "Molecule",
-      "x": 0.2672530446549391,
+      "x": 0.2740189445196211,
       "y": 0.4847560975609756,
       "uniqueID": "id-4",
       "name": "Molecule",
@@ -70,7 +87,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6,
+              "ioValue": 3.37,
               "currentEquation": "H_pulley_r"
             }
           ]
@@ -115,6 +132,27 @@
       ],
       "allConnectors": [],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.4825515947467167,
+      "uniqueID": "id-21",
+      "name": "Distance_b_pulleys"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.574859287054409,
+      "uniqueID": "id-24",
+      "name": "screw_1_d_from_l"
+    },
+    {
+      "atomType": "Input",
+      "x": 0.025384615384615384,
+      "y": 0.6671669793621013,
+      "uniqueID": "id-27",
+      "name": "screw_1_d_from_p_2"
     }
   ],
   "allConnectors": [],
