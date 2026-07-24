@@ -65,6 +65,12 @@
       "y": 0.4847560975609756,
       "uniqueID": "id-4",
       "name": "Molecule",
+      "ioValues": [
+        {
+          "name": "bottom_thickness",
+          "ioValue": 10
+        }
+      ],
       "topLevel": false,
       "allAtoms": [
         {
@@ -81,8 +87,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2807848443843031,
-          "y": 0.3292682926829268,
+          "x": 0.25590872045639773,
+          "y": 0.22865853658536586,
           "uniqueID": "id-8",
           "ioValues": [
             {
@@ -94,8 +100,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.19418132611637348,
-          "y": 0.7286585365853658,
+          "x": 0.15484922575387122,
+          "y": 0.5152439024390244,
           "uniqueID": "id-11",
           "ioValues": [
             {
@@ -107,8 +113,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.3870094722598106,
-          "y": 0.48780487804878053,
+          "x": 0.38956805215973916,
+          "y": 0.2621951219512195,
           "uniqueID": "id-20",
           "ioValues": [
             {
@@ -132,8 +138,8 @@
         },
         {
           "atomType": "ShrinkWrap",
-          "x": 0.4702526487367564,
-          "y": 0.6951219512195121,
+          "x": 0.48655256723716384,
+          "y": 0.5060975609756098,
           "uniqueID": "id-30",
           "name": "Shrink Wrap",
           "ioValues": [
@@ -438,6 +444,72 @@
             }
           ],
           "unionType": "Fusion"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.19315403422982885,
+          "y": 0.8140243902439025,
+          "uniqueID": "id-74",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 3,
+              "currentEquation": "3"
+            },
+            {
+              "name": "y length",
+              "ioValue": 3,
+              "currentEquation": "3"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3202933985330073,
+          "y": 0.8109756097560976,
+          "uniqueID": "id-78",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 3,
+              "currentEquation": "3"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.42542787286063566,
+          "y": 0.8353658536585366,
+          "uniqueID": "id-82",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384146341463415,
+          "uniqueID": "id-88",
+          "name": "bottom_thickness"
         }
       ],
       "allConnectors": [
@@ -495,6 +567,16 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-68",
           "ap2ID": "id-6"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-74",
+          "ap2ID": "id-78"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-78",
+          "ap2ID": "id-82"
         }
       ],
       "fileTypeVersion": 1
