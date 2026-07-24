@@ -490,6 +490,11 @@
           "ap2Name": "Shape 2",
           "ap1ID": "id-64",
           "ap2ID": "id-68"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-68",
+          "ap2ID": "id-6"
         }
       ],
       "fileTypeVersion": 1
