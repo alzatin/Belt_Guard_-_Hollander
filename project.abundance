@@ -48,7 +48,7 @@
     {
       "atomType": "Input",
       "x": 0.025384615384615384,
-      "y": 0.2865853658536585,
+      "y": 0.27439024390243905,
       "uniqueID": "id-14",
       "name": "H_pulley_d"
     },
@@ -81,34 +81,34 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2476319350473613,
-          "y": 0.3902439024390244,
+          "x": 0.2807848443843031,
+          "y": 0.3292682926829268,
           "uniqueID": "id-8",
           "ioValues": [
             {
               "name": "diameter",
               "ioValue": 3.37,
-              "currentEquation": "H_pulley_r"
+              "currentEquation": "H_pulley_d"
             }
           ]
         },
         {
           "atomType": "Circle",
-          "x": 0.17997293640054127,
-          "y": 0.6951219512195121,
+          "x": 0.19418132611637348,
+          "y": 0.7286585365853658,
           "uniqueID": "id-11",
           "ioValues": [
             {
               "name": "diameter",
               "ioValue": 8,
-              "currentEquation": "L_pulley_r"
+              "currentEquation": "L_pulley_d"
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.40189445196211093,
-          "y": 0.6707317073170731,
+          "x": 0.3870094722598106,
+          "y": 0.48780487804878053,
           "uniqueID": "id-20",
           "ioValues": [
             {
@@ -117,7 +117,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0
+              "ioValue": 13,
+              "currentEquation": "13"
             },
             {
               "name": "yDist",
@@ -128,9 +129,268 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "ShrinkWrap",
+          "x": 0.47699594046008115,
+          "y": 0.6859756097560975,
+          "uniqueID": "id-30",
+          "name": "Shrink Wrap",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "move-circle-1.685-13-0-0",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "circle-4",
+                "dimension": "2D",
+                "tags": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.5900570497147515,
+          "y": 0.38109756097560976,
+          "uniqueID": "id-44",
+          "name": "Offset_2D",
+          "ioValues": [
+            {
+              "name": "2D_Shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Offset",
+              "ioValue": 0.25,
+              "currentEquation": "0.25"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-40",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-41",
+              "name": "2D_Shape",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.24615384615384617,
+              "uniqueID": "id-42",
+              "name": "Offset"
+            },
+            {
+              "atomType": "Code",
+              "x": 0.49007936507936506,
+              "y": 0.44011142061281333,
+              "uniqueID": "id-43",
+              "ioValues": [
+                {
+                  "name": "shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "distance",
+                  "ioValue": 0.25
+                }
+              ],
+              "interpreterVersion": 1,
+              "code": "function run(shape: Assembly, distance: number = 1): Assembly {\n  return shape.onLeafs((leaf) => {\n    leaf.geometry = leaf.geometry.offset(distance);\n    return leaf;\n  }) as Assembly;\n}",
+              "compiledCode": "\"use strict\";\nfunction run(shape, distance = 1) {\n    return shape.onLeafs((leaf) => {\n        leaf.geometry = leaf.geometry.offset(distance);\n        return leaf;\n    });\n}\n"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "shape",
+              "ap1ID": "id-41",
+              "ap2ID": "id-43"
+            },
+            {
+              "ap2Name": "distance",
+              "ap1ID": "id-42",
+              "ap2ID": "id-43"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-43",
+              "ap2ID": "id-40"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-07-24T18:23:39.035Z",
+            "privateRepo": false,
+            "repoName": "Offset_2D",
+            "dateCreated": "2026-03-27T21:44:37Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/BarbourSmith/Offset_2D/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-631",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/BarbourSmith/Offset_2D",
+            "topics": [],
+            "pullRequests": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739791",
+            "ranking": 5.1,
+            "searchField": "offset_2d barboursmith takes an input 2d shape and offsets from it to produce a new 2d shape which is larger or smaller ",
+            "owner": "BarbourSmith",
+            "description": "Takes an input 2D shape and offsets from it to produce a new 2D shape which is larger or smaller",
+            "contentURL": "https://raw.githubusercontent.com/BarbourSmith/Offset_2D/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/BarbourSmith/Offset_2D/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "MM",
+          "fileTypeVersion": 1,
+          "lastReloadedFromGithubAt": 1784925455189
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.6544417277913611,
+          "y": 0.6615853658536586,
+          "uniqueID": "id-56",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.7481662591687042,
+          "y": 0.3079268292682927,
+          "uniqueID": "id-60",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 0.375,
+              "currentEquation": ".375"
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-8",
+          "ap2ID": "id-20"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-11",
+          "ap2ID": "id-30"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-20",
+          "ap2ID": "id-30"
+        },
+        {
+          "ap2Name": "2D_Shape",
+          "ap1ID": "id-30",
+          "ap2ID": "id-44"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-30",
+          "ap2ID": "id-56"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-44",
+          "ap2ID": "id-56"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-44",
+          "ap2ID": "id-60"
+        }
+      ],
       "fileTypeVersion": 1
     },
     {
