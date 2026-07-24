@@ -132,8 +132,8 @@
         },
         {
           "atomType": "ShrinkWrap",
-          "x": 0.47699594046008115,
-          "y": 0.6859756097560975,
+          "x": 0.4702526487367564,
+          "y": 0.6951219512195121,
           "uniqueID": "id-30",
           "name": "Shrink Wrap",
           "ioValues": [
@@ -222,8 +222,8 @@
             },
             {
               "name": "Offset",
-              "ioValue": 0.25,
-              "currentEquation": "0.25"
+              "ioValue": 0.2,
+              "currentEquation": "0.2"
             }
           ],
           "topLevel": false,
@@ -267,7 +267,7 @@
                 },
                 {
                   "name": "distance",
-                  "ioValue": 0.25
+                  "ioValue": 0.2
                 }
               ],
               "interpreterVersion": 1,
@@ -348,10 +348,96 @@
             },
             {
               "name": "height",
-              "ioValue": 0.375,
-              "currentEquation": ".375"
+              "ioValue": 0.15,
+              "currentEquation": ".15"
             }
           ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.7408312958435208,
+          "y": 0.6524390243902439,
+          "uniqueID": "id-64",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 2,
+              "currentEquation": "2"
+            }
+          ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.8133659331703341,
+          "y": 0.45426829268292684,
+          "uniqueID": "id-68",
+          "ioValues": [
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": "extrude-cut-d4d72620-0-shrinkWrap-fuse-circle-4-move-circle-1.685-13-0-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [
+                  []
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "3D"
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": "extrude-d4d72620-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.15",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [
+                  []
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "3D"
+              }
+            }
+          ],
+          "unionType": "Fusion"
         }
       ],
       "allConnectors": [
@@ -389,6 +475,21 @@
           "ap2Name": "geometry",
           "ap1ID": "id-44",
           "ap2ID": "id-60"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-56",
+          "ap2ID": "id-64"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-60",
+          "ap2ID": "id-68"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-64",
+          "ap2ID": "id-68"
         }
       ],
       "fileTypeVersion": 1
