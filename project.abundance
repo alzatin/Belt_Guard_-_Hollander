@@ -61,10 +61,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.2740189445196211,
-      "y": 0.4847560975609756,
+      "x": 0.28280358598207006,
+      "y": 0.5030487804878049,
       "uniqueID": "id-4",
-      "name": "Molecule",
+      "name": "Full shape",
       "ioValues": [
         {
           "name": "bottom_thickness",
