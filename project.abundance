@@ -62,7 +62,7 @@
     {
       "atomType": "Molecule",
       "x": 0.28280358598207006,
-      "y": 0.5030487804878049,
+      "y": 0.5213414634146342,
       "uniqueID": "id-4",
       "name": "Full shape",
       "ioValues": [
@@ -346,7 +346,7 @@
         {
           "atomType": "Extrude",
           "x": 0.6976365118174409,
-          "y": 0.25,
+          "y": 0.23170731707317072,
           "uniqueID": "id-60",
           "ioValues": [
             {
@@ -362,8 +362,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.6976365118174409,
-          "y": 0.5030487804878049,
+          "x": 0.6968215158924205,
+          "y": 0.5121951219512195,
           "uniqueID": "id-64",
           "ioValues": [
             {
@@ -372,8 +372,8 @@
             },
             {
               "name": "height",
-              "ioValue": 2,
-              "currentEquation": "2"
+              "ioValue": 1.85,
+              "currentEquation": "2 - bottom_thickness"
             }
           ]
         },
@@ -386,7 +386,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "extrude-cut-d4d72620-0-shrinkWrap-fuse-circle-4-move-circle-1.685-13-0-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-2",
+                "geometry": "extrude-cut-d4d72620-0-shrinkWrap-fuse-circle-4-move-circle-1.685-13-0-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.85",
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [
