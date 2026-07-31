@@ -77,8 +77,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3018207282913165,
-      "y": 0.3253731343283582,
+      "x": 0.3011204481792717,
+      "y": 0.34328358208955223,
       "uniqueID": "id-4",
       "name": "Full shape",
       "ioValues": [
@@ -618,9 +618,115 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.21078431372549017,
+      "y": 0.6059701492537313,
+      "uniqueID": "id-162",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 2
+        },
+        {
+          "name": "y length",
+          "ioValue": 2,
+          "currentEquation": "2"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3949579831932773,
+      "y": 0.6865671641791045,
+      "uniqueID": "id-166",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 20,
+          "currentEquation": "20"
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.4831932773109244,
+      "y": 0.5044776119402985,
+      "uniqueID": "id-170",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.484593837535014,
+      "y": 0.835820895522388,
+      "uniqueID": "id-176",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 90,
+          "currentEquation": "90"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-170"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-162",
+      "ap2ID": "id-166"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-166",
+      "ap2ID": "id-176"
+    }
+  ],
   "unitsKey": "Unitless",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
