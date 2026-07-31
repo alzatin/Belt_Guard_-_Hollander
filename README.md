@@ -10,7 +10,7 @@
 - **L_pulley_d** (number)
 - **Distance_b_pulleys** (number)
 - **screw_1_d_from_l** (number)
-- **screw_1_d_from_p_2** (undefined)
+- **screw_1_d_from_p_2** (number)
 
 
 
