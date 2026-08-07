@@ -221,8 +221,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7324929971988795,
-      "y": 0.7970149253731343,
+      "x": 0.7296137339055794,
+      "y": 0.7770897832817337,
       "uniqueID": "id-629",
       "ioValues": [
         {
@@ -553,8 +553,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4743697478991597,
-          "y": 0.44552238805970157,
+          "x": 0.4742489270386266,
+          "y": 0.46439628482972134,
           "uniqueID": "id-453",
           "ioValues": [
             {
@@ -641,8 +641,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6309523809523809,
-          "y": 0.5223880597014925,
+          "x": 0.6384120171673819,
+          "y": 0.5201238390092879,
           "uniqueID": "id-457",
           "ioValues": [
             {
@@ -687,10 +687,6 @@
           "ioValues": [
             {
               "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
               "ioValue": null
             }
           ]
@@ -1037,227 +1033,6 @@
           "unitsKey": "MM",
           "fileTypeVersion": 1,
           "lastReloadedFromGithubAt": 1785529215727
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.09663865546218488,
-          "y": 0.6447761194029851,
-          "uniqueID": "id-599",
-          "name": "Hole",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 0.25
-            },
-            {
-              "name": "length",
-              "ioValue": 2
-            },
-            {
-              "name": "x",
-              "ioValue": 0
-            },
-            {
-              "name": "y",
-              "ioValue": 0
-            }
-          ],
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-589",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
-              "uniqueID": "id-590",
-              "name": "diameter",
-              "type": "number"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
-              "uniqueID": "id-591",
-              "name": "length",
-              "type": "number"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
-              "uniqueID": "id-592",
-              "name": "x",
-              "type": "number"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.4307692307692308,
-              "uniqueID": "id-593",
-              "name": "y",
-              "type": "number"
-            },
-            {
-              "atomType": "Circle",
-              "x": 0.26265389876880985,
-              "y": 0.23493975903614459,
-              "uniqueID": "id-594",
-              "ioValues": [
-                {
-                  "name": "diameter",
-                  "ioValue": 0.25
-                }
-              ]
-            },
-            {
-              "atomType": "Extrude",
-              "x": 0.4445964432284542,
-              "y": 0.3283132530120482,
-              "uniqueID": "id-595",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 2
-                }
-              ]
-            },
-            {
-              "atomType": "Move",
-              "x": 0.5909712722298222,
-              "y": 0.5030120481927711,
-              "uniqueID": "id-596",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "xDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
-              "atomType": "Color",
-              "x": 0.7428180574555403,
-              "y": 0.680722891566265,
-              "uniqueID": "id-597",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ],
-              "selectedColor": "Glass"
-            },
-            {
-              "atomType": "Equation",
-              "x": 0.47195622435020523,
-              "y": 0.7048192771084337,
-              "uniqueID": "id-598",
-              "name": "-x /2",
-              "currentEquation": "-x /2"
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "diameter",
-              "ap1ID": "id-590",
-              "ap2ID": "id-594"
-            },
-            {
-              "ap2Name": "height",
-              "ap1ID": "id-591",
-              "ap2ID": "id-595"
-            },
-            {
-              "ap2Name": "xDist",
-              "ap1ID": "id-592",
-              "ap2ID": "id-596"
-            },
-            {
-              "ap2Name": "yDist",
-              "ap1ID": "id-593",
-              "ap2ID": "id-596"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-594",
-              "ap2ID": "id-595"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-595",
-              "ap2ID": "id-596"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-596",
-              "ap2ID": "id-597"
-            },
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-597",
-              "ap2ID": "id-589"
-            },
-            {
-              "ap2Name": "zDist",
-              "ap1ID": "id-598",
-              "ap2ID": "id-596"
-            }
-          ],
-          "parentRepo": {
-            "lastFoundGit": "2026-07-31T18:27:35.376Z",
-            "privateRepo": false,
-            "repoName": "Hole",
-            "dateCreated": "2025-06-20T17:03:18Z",
-            "likes": 0,
-            "readMe": "https://raw.githubusercontent.com/alzatin/Hole/master/README.md?sanitize=true",
-            "yyyy": 2025,
-            "topMoleculeID": "3c8d21e1-b281-4fdc-b2ef-00cbe1553401",
-            "githubMoleculesUsed": [],
-            "html_url": "https://github.com/alzatin/Hole",
-            "topics": [
-              "abundance-tool"
-            ],
-            "pullRequests": [],
-            "parentRepo": null,
-            "forks": 0,
-            "dateModified": "739422",
-            "ranking": 4.8,
-            "searchField": "hole alzatin makes a hole of a given diameter and length centered in a given x,y point abundance-tool",
-            "owner": "alzatin",
-            "description": "Makes a hole of a given diameter and length centered in a given x,y point",
-            "contentURL": "https://raw.githubusercontent.com/alzatin/Hole/master/project.abundance?sanitize=true",
-            "svgURL": "https://raw.githubusercontent.com/alzatin/Hole/master/project.svg?sanitize=true",
-            "isLocal": false
-          },
-          "unitsKey": "MM",
-          "fileTypeVersion": 1,
-          "lastReloadedFromGithubAt": 1785529321061
         }
       ],
       "allConnectors": [
@@ -1324,11 +1099,6 @@
         {
           "ap2Name": "Shape 1",
           "ap1ID": "id-535",
-          "ap2ID": "id-583"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-599",
           "ap2ID": "id-583"
         }
       ],
@@ -1677,8 +1447,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.801860465116279,
-          "y": 0.7213622291021672,
+          "x": 0.7628755364806867,
+          "y": 0.7306501547987616,
           "uniqueID": "id-91",
           "ioValues": [
             {
@@ -1801,8 +1571,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.7525581395348838,
-          "y": 0.5015479876160991,
+          "x": 0.7424892703862661,
+          "y": 0.5046439628482972,
           "uniqueID": "id-893",
           "ioValues": [
             {
@@ -3125,11 +2895,6 @@
           "ap2ID": "id-91"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-91",
-          "ap2ID": "id-6"
-        },
-        {
           "ap2Name": "fullshap",
           "ap1ID": "id-91",
           "ap2ID": "id-1454"
@@ -3198,6 +2963,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-44",
           "ap2ID": "id-60"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1454",
+          "ap2ID": "id-6"
         }
       ],
       "fileTypeVersion": 1
