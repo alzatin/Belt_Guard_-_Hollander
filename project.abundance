@@ -1190,8 +1190,8 @@
                 },
                 {
                   "atomType": "Extrude",
-                  "x": 0.2641860465116279,
-                  "y": 0.7306501547987616,
+                  "x": 0.2530232558139535,
+                  "y": 0.7368421052631579,
                   "uniqueID": "id-1510",
                   "ioValues": [
                     {
@@ -1206,8 +1206,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.3832558139534884,
-                  "y": 0.7306501547987616,
+                  "x": 0.40744186046511627,
+                  "y": 0.8080495356037152,
                   "uniqueID": "id-1511",
                   "ioValues": [
                     {
@@ -1230,8 +1230,8 @@
                 },
                 {
                   "atomType": "Rotate",
-                  "x": 0.4130232558139535,
-                  "y": 0.4829721362229102,
+                  "x": 0.4306976744186047,
+                  "y": 0.39628482972136225,
                   "uniqueID": "id-1512",
                   "ioValues": [
                     {
@@ -1254,8 +1254,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.4995348837209302,
-                  "y": 0.4829721362229102,
+                  "x": 0.49488372093023253,
+                  "y": 0.5139318885448917,
                   "uniqueID": "id-1513",
                   "ioValues": [
                     {
@@ -1278,8 +1278,8 @@
                 },
                 {
                   "atomType": "Fusion",
-                  "x": 0.5423255813953488,
-                  "y": 0.7801857585139318,
+                  "x": 0.5479069767441861,
+                  "y": 0.7925696594427245,
                   "uniqueID": "id-1514",
                   "ioValues": [
                     {
@@ -1341,8 +1341,8 @@
                 },
                 {
                   "atomType": "Rotate",
-                  "x": 0.6130232558139534,
-                  "y": 0.6099071207430341,
+                  "x": 0.6632558139534883,
+                  "y": 0.5108359133126935,
                   "uniqueID": "id-1515",
                   "ioValues": [
                     {
@@ -1365,8 +1365,8 @@
                 },
                 {
                   "atomType": "Move",
-                  "x": 0.7023255813953488,
-                  "y": 0.7151702786377708,
+                  "x": 0.7451162790697675,
+                  "y": 0.6934984520123838,
                   "uniqueID": "id-1516",
                   "ioValues": [
                     {
@@ -1389,18 +1389,20 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.2362790697674419,
-                  "y": 0.4179566563467493,
+                  "x": 0.09302325581395349,
+                  "y": 0.47987616099071206,
                   "uniqueID": "id-1571",
                   "name": "Hole",
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 5
+                      "ioValue": 0.25,
+                      "currentEquation": "0.25"
                     },
                     {
                       "name": "length",
-                      "ioValue": 10
+                      "ioValue": 2,
+                      "currentEquation": "2"
                     },
                     {
                       "name": "x",
@@ -1465,7 +1467,7 @@
                       "ioValues": [
                         {
                           "name": "diameter",
-                          "ioValue": 5
+                          "ioValue": 0.25
                         }
                       ]
                     },
@@ -1481,7 +1483,7 @@
                         },
                         {
                           "name": "height",
-                          "ioValue": 10
+                          "ioValue": 2
                         }
                       ]
                     },
@@ -1610,8 +1612,8 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.7665116279069768,
-                  "y": 0.3993808049535604,
+                  "x": 0.8158139534883722,
+                  "y": 0.4241486068111455,
                   "uniqueID": "id-1602",
                   "name": "selected.Fillet",
                   "ioValues": [
@@ -1724,6 +1726,79 @@
                   "unitsKey": "Unitless",
                   "fileTypeVersion": 1,
                   "lastReloadedFromGithubAt": 1786137196451
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.23348837209302328,
+                  "y": 0.3281733746130031,
+                  "uniqueID": "id-1614",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 0.25,
+                      "currentEquation": "0.25"
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": 0.375,
+                      "currentEquation": ".375"
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": -1,
+                      "currentEquation": "-1"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Move",
+                  "x": 0.22697674418604652,
+                  "y": 0.5170278637770898,
+                  "uniqueID": "id-1620",
+                  "ioValues": [
+                    {
+                      "name": "geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    },
+                    {
+                      "name": "xDist",
+                      "ioValue": 0.25
+                    },
+                    {
+                      "name": "yDist",
+                      "ioValue": -0.375,
+                      "currentEquation": "-0.375"
+                    },
+                    {
+                      "name": "zDist",
+                      "ioValue": -1,
+                      "currentEquation": "-1"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Assembly",
+                  "x": 0.641860465116279,
+                  "y": 0.3003095975232198,
+                  "uniqueID": "id-1632",
+                  "ioValues": [
+                    {
+                      "name": "Shape 1",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "Shape 2",
+                      "ioValue": null
+                    },
+                    {
+                      "name": "Shape 4",
+                      "ioValue": null
+                    }
+                  ]
                 }
               ],
               "allConnectors": [
@@ -1735,12 +1810,12 @@
                 {
                   "ap2Name": "geometry",
                   "ap1ID": "id-1510",
-                  "ap2ID": "id-1511"
+                  "ap2ID": "id-1512"
                 },
                 {
                   "ap2Name": "geometry",
                   "ap1ID": "id-1510",
-                  "ap2ID": "id-1512"
+                  "ap2ID": "id-1511"
                 },
                 {
                   "ap2Name": "Shape 1",
@@ -1758,9 +1833,9 @@
                   "ap2ID": "id-1514"
                 },
                 {
-                  "ap2Name": "geometry",
+                  "ap2Name": "Shape 4",
                   "ap1ID": "id-1514",
-                  "ap2ID": "id-1515"
+                  "ap2ID": "id-1632"
                 },
                 {
                   "ap2Name": "geometry",
@@ -1776,6 +1851,31 @@
                   "ap2Name": "shape",
                   "ap1ID": "id-1516",
                   "ap2ID": "id-1602"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-1571",
+                  "ap2ID": "id-1614"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-1571",
+                  "ap2ID": "id-1620"
+                },
+                {
+                  "ap2Name": "Shape 1",
+                  "ap1ID": "id-1614",
+                  "ap2ID": "id-1632"
+                },
+                {
+                  "ap2Name": "Shape 2",
+                  "ap1ID": "id-1620",
+                  "ap2ID": "id-1632"
+                },
+                {
+                  "ap2Name": "geometry",
+                  "ap1ID": "id-1632",
+                  "ap2ID": "id-1515"
                 }
               ],
               "fileTypeVersion": 1
