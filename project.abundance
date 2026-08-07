@@ -497,24 +497,26 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.10994397759103641,
-          "y": 0.8477611940298507,
+          "x": 0.1148068669527897,
+          "y": 0.8359133126934986,
           "uniqueID": "id-450",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 3
+              "ioValue": 2,
+              "currentEquation": "2"
             },
             {
               "name": "y length",
-              "ioValue": 1.5
+              "ioValue": 1.5,
+              "currentEquation": "1.5"
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.1869747899159664,
-          "y": 0.8328358208955224,
+          "x": 0.18562231759656653,
+          "y": 0.8575851393188855,
           "uniqueID": "id-451",
           "ioValues": [
             {
@@ -523,7 +525,8 @@
             },
             {
               "name": "height",
-              "ioValue": 0.375
+              "ioValue": 0.5,
+              "currentEquation": "0.5"
             }
           ]
         },
@@ -681,8 +684,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.32492997198879553,
-          "y": 0.6507462686567164,
+          "x": 0.38626609442060084,
+          "y": 0.6439628482972136,
           "uniqueID": "id-583",
           "ioValues": [
             {
@@ -888,8 +891,8 @@
         },
         {
           "atomType": "GitHubMolecule",
-          "x": 0.273109243697479,
-          "y": 0.8746268656716418,
+          "x": 0.2736051502145923,
+          "y": 0.8575851393188855,
           "uniqueID": "id-535",
           "name": "Fillet_SidesOnly",
           "ioValues": [
