@@ -1366,7 +1366,7 @@
                 {
                   "atomType": "Move",
                   "x": 0.7451162790697675,
-                  "y": 0.6934984520123838,
+                  "y": 0.7213622291021672,
                   "uniqueID": "id-1516",
                   "ioValues": [
                     {
@@ -1612,8 +1612,8 @@
                 },
                 {
                   "atomType": "GitHubMolecule",
-                  "x": 0.8158139534883722,
-                  "y": 0.4241486068111455,
+                  "x": 0.8148837209302325,
+                  "y": 0.44891640866873067,
                   "uniqueID": "id-1602",
                   "name": "selected.Fillet",
                   "ioValues": [
@@ -1670,6 +1670,10 @@
                       "selectedEdgeData": {
                         "0": [
                           16
+                        ],
+                        "4": [
+                          16,
+                          6
                         ]
                       }
                     },
@@ -1766,7 +1770,8 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": 0.25
+                      "ioValue": 0.5,
+                      "currentEquation": "0.5"
                     },
                     {
                       "name": "yDist",
