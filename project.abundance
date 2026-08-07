@@ -2032,6 +2032,10 @@
                 {
                   "name": "Shape 4",
                   "ioValue": null
+                },
+                {
+                  "name": "Shape 5",
+                  "ioValue": null
                 }
               ]
             },
@@ -2748,8 +2752,8 @@
             },
             {
               "atomType": "GitHubMolecule",
-              "x": 0.6566523605150215,
-              "y": 0.20433436532507743,
+              "x": 0.6620171673819742,
+              "y": 0.19814241486068113,
               "uniqueID": "id-2624",
               "name": "util.Mirror",
               "topLevel": false,
@@ -2859,8 +2863,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.5793991416309013,
-              "y": 0.7554179566563468,
+              "x": 0.5686695278969957,
+              "y": 0.56656346749226,
               "uniqueID": "id-2640",
               "ioValues": [
                 {
@@ -2882,6 +2886,91 @@
                   "ioValue": 0
                 }
               ]
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.648068669527897,
+              "y": 0.7863777089783281,
+              "uniqueID": "id-2647",
+              "name": "util.Mirror",
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-2648",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.4387814879906269,
+                  "y": 0.2325,
+                  "uniqueID": "id-2649",
+                  "ioValues": [
+                    {
+                      "name": "assembly",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ],
+                  "interpreterVersion": 1,
+                  "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
+                  "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.025384615384615384,
+                  "y": 0.15384615384615385,
+                  "uniqueID": "id-2650",
+                  "name": "assembly"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-2649",
+                  "ap2ID": "id-2648"
+                },
+                {
+                  "ap2Name": "assembly",
+                  "ap1ID": "id-2650",
+                  "ap2ID": "id-2649"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-08-07T18:23:38.949Z",
+                "privateRepo": false,
+                "repoName": "util.Mirror",
+                "dateCreated": "2026-07-09T18:32:34Z",
+                "likes": 0,
+                "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
+                "yyyy": 2026,
+                "topMoleculeID": "id-21902",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/tristan-huber/util.Mirror",
+                "topics": [
+                  "abundance-tool"
+                ],
+                "pullRequests": [],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739814",
+                "ranking": 2.7,
+                "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
+                "owner": "tristan-huber",
+                "description": "Mirror an assembly across the XZ plane.",
+                "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1,
+              "lastReloadedFromGithubAt": 1786139890716
             }
           ],
           "allConnectors": [
@@ -2948,6 +3037,16 @@
             {
               "ap2Name": "Shape 4",
               "ap1ID": "id-2640",
+              "ap2ID": "id-2115"
+            },
+            {
+              "ap2Name": "assembly",
+              "ap1ID": "id-2640",
+              "ap2ID": "id-2647"
+            },
+            {
+              "ap2Name": "Shape 5",
+              "ap1ID": "id-2647",
               "ap2ID": "id-2115"
             }
           ],
