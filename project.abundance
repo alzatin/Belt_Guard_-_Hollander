@@ -4269,15 +4269,7 @@
                       "uniqueID": "id-1600",
                       "name": "shape",
                       "type": "edgeselect",
-                      "selectedEdgeData": {
-                        "0": [
-                          16
-                        ],
-                        "4": [
-                          16,
-                          6
-                        ]
-                      }
+                      "selectedEdgeData": {}
                     },
                     {
                       "atomType": "Input",
