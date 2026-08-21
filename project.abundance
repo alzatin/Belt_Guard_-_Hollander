@@ -2594,8 +2594,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.16779431664411365,
-      "y": 0.2103658536585366,
+      "x": 0.17258883248730966,
+      "y": 0.23765432098765432,
       "uniqueID": "id-4",
       "name": "Full shape",
       "ioValues": [
@@ -3003,8 +3003,8 @@
         },
         {
           "atomType": "Intersection",
-          "x": 0.6552447552447552,
-          "y": 0.28792569659442724,
+          "x": 0.6569978245105149,
+          "y": 0.29012345679012347,
           "uniqueID": "id-879",
           "ioValues": [
             {
@@ -4524,6 +4524,190 @@
             }
           ],
           "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.7628716461203771,
+          "y": 0.27469135802469136,
+          "uniqueID": "id-3747",
+          "name": "Addlip",
+          "ioValues": [
+            {
+              "name": "shape",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-3749",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.2839506172839506,
+              "uniqueID": "id-3751",
+              "name": "shape",
+              "type": "geometry"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.20667150108774474,
+              "y": 0.8456790123456789,
+              "uniqueID": "id-3754",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 0.5,
+                  "currentEquation": ".5"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 5,
+                  "currentEquation": "5"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.3103698332124728,
+              "y": 0.6234567901234568,
+              "uniqueID": "id-3758",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 0.125,
+                  "currentEquation": ".25/2"
+                }
+              ]
+            },
+            {
+              "atomType": "Fusion",
+              "x": 0.5511240029006527,
+              "y": 0.49074074074074076,
+              "uniqueID": "id-3762",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": {
+                    "geometry": "move-extrude-rectangle-0.5-5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.125-2-0-0.125",
+                    "dimension": "3D",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": []
+                  }
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": {
+                    "geometry": "intersect-move-extrude-rectangle-8-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10--2-0-0-fuse-extrude-6c8856c8-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.15-extrude-cut-6c8856c8-0-shrinkWrap-fuse-circle-4-move-circle-1.685-13-0-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.85",
+                    "tags": [],
+                    "color": "#aad7f2",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "bom": [],
+                    "dimension": "3D"
+                  }
+                }
+              ],
+              "unionType": "Fusion"
+            },
+            {
+              "atomType": "Move",
+              "x": 0.4053662073966643,
+              "y": 0.8333333333333334,
+              "uniqueID": "id-3767",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 2,
+                  "currentEquation": "2"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0,
+                  "currentEquation": "0"
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0.125,
+                  "currentEquation": ".25/2"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-3751",
+              "ap2ID": "id-3762"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-3754",
+              "ap2ID": "id-3758"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-3758",
+              "ap2ID": "id-3767"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-3767",
+              "ap2ID": "id-3762"
+            }
+          ],
+          "fileTypeVersion": 1
         }
       ],
       "allConnectors": [
@@ -4636,6 +4820,11 @@
           "ap2Name": "Shape 2",
           "ap1ID": "id-879",
           "ap2ID": "id-893"
+        },
+        {
+          "ap2Name": "shape",
+          "ap1ID": "id-879",
+          "ap2ID": "id-3747"
         },
         {
           "ap2Name": "geometry1",
