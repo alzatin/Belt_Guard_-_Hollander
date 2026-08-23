@@ -76,185 +76,21 @@
       "name": "screw_1_d_from_p_2"
     },
     {
-      "atomType": "Rectangle",
-      "x": 0.17482517482517484,
-      "y": 0.7739938080495355,
-      "uniqueID": "id-162",
-      "ioValues": [
-        {
-          "name": "x length",
-          "ioValue": 2
-        },
-        {
-          "name": "y length",
-          "ioValue": 2
-        }
-      ]
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.3027972027972028,
-      "y": 0.7708978328173375,
-      "uniqueID": "id-166",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 30
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.4234952864394489,
-      "y": 0.6666666666666666,
-      "uniqueID": "id-170",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 90
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 213
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.4427906976744186,
-      "y": 0.8173374613003097,
-      "uniqueID": "id-176",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 90
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5912334352701325,
-      "y": 0.7585139318885449,
-      "uniqueID": "id-182",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": -15
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
       "atomType": "Assembly",
-      "x": 0.8188811188811189,
-      "y": 0.4551083591331269,
-      "uniqueID": "id-188",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.5387962291515591,
-      "y": 0.39814814814814814,
-      "uniqueID": "id-193",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 1
-        },
-        {
-          "name": "yDist",
-          "ioValue": 2.95
-        },
-        {
-          "name": "zDist",
-          "ioValue": -2.5
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.7979020979020979,
-      "y": 0.8018575851393189,
-      "uniqueID": "id-629",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.5859318346627991,
-      "y": 0.35185185185185186,
+      "x": 0.6265409717186367,
+      "y": 0.28703703703703703,
       "uniqueID": "id-2942",
       "ioValues": [
         {
           "name": "Shape 1",
           "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.2668600435097897,
-      "y": 0.5709876543209876,
-      "uniqueID": "id-2948",
-      "ioValues": [
+        },
         {
-          "name": "Shape 1",
+          "name": "Shape 3",
           "ioValue": null
         },
         {
-          "name": "Shape 2",
+          "name": "Shape 4",
           "ioValue": null
         }
       ]
@@ -501,8 +337,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.6881118881118881,
-      "y": 0.5603715170278638,
+      "x": 0.7338651196519217,
+      "y": 0.39197530864197533,
       "uniqueID": "id-2929",
       "name": "selected.Fillet",
       "ioValues": [
@@ -613,8 +449,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3582306018854242,
-      "y": 0.6080246913580247,
+      "x": 0.3248730964467005,
+      "y": 0.9074074074074076,
       "uniqueID": "id-439",
       "name": "Side holders",
       "topLevel": false,
@@ -1072,8 +908,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1501087744742567,
-      "y": 0.5586419753086419,
+      "x": 0.21464829586656997,
+      "y": 0.7129629629629629,
       "uniqueID": "id-2740",
       "name": "Attachments-panel",
       "ioValues": [
@@ -6416,976 +6252,9 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Molecule",
-      "x": 0.5474981870920957,
-      "y": 0.6080246913580247,
-      "uniqueID": "id-5307",
-      "name": "AddLipside",
-      "ioValues": [
-        {
-          "name": "fullshap",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-5308",
-          "ioValues": [
-            {
-              "name": "number or geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
-          "uniqueID": "id-5309",
-          "name": "fullshap",
-          "type": "geometry"
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.8179840464104424,
-          "y": 0.30246913580246915,
-          "uniqueID": "id-5310",
-          "ioValues": [
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 5",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 6",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.4496503496503496,
-          "y": 0.20123839009287925,
-          "uniqueID": "id-5311",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 80
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.5454545454545455,
-          "y": 0.19195046439628483,
-          "uniqueID": "id-5312",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 2
-            },
-            {
-              "name": "yDist",
-              "ioValue": 3.9
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.3195804195804196,
-          "y": 0.3436532507739938,
-          "uniqueID": "id-5313",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.44825174825174824,
-          "y": 0.35913312693498456,
-          "uniqueID": "id-5314",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 80
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.5769230769230769,
-          "y": 0.4179566563467493,
-          "uniqueID": "id-5315",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 10
-            },
-            {
-              "name": "yDist",
-              "ioValue": 2.4
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.4328671328671329,
-          "y": 0.8328173374613004,
-          "uniqueID": "id-5316",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 80
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.5377622377622377,
-          "y": 0.8823529411764706,
-          "uniqueID": "id-5317",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 2
-            },
-            {
-              "name": "yDist",
-              "ioValue": 3.9
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.32167832167832167,
-          "y": 0.674922600619195,
-          "uniqueID": "id-5318",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.4531468531468532,
-          "y": 0.6253869969040248,
-          "uniqueID": "id-5319",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 80
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.5370629370629371,
-          "y": 0.6377708978328174,
-          "uniqueID": "id-5320",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 10
-            },
-            {
-              "name": "yDist",
-              "ioValue": 2.4
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.7897026831036983,
-          "y": 0.8209876543209876,
-          "uniqueID": "id-5321",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
-            }
-          ]
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.20489510489510487,
-          "y": 0.6996904024767803,
-          "uniqueID": "id-5322",
-          "name": "util.Mirror",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-5323",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Code",
-              "x": 0.4387814879906269,
-              "y": 0.2325,
-              "uniqueID": "id-5324",
-              "ioValues": [
-                {
-                  "name": "assembly",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ],
-              "interpreterVersion": 1,
-              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
-              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
-              "uniqueID": "id-5325",
-              "name": "assembly"
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-5324",
-              "ap2ID": "id-5323"
-            },
-            {
-              "ap2Name": "assembly",
-              "ap1ID": "id-5325",
-              "ap2ID": "id-5324"
-            }
-          ],
-          "parentRepo": {
-            "lastFoundGit": "2026-08-07T18:23:38.949Z",
-            "privateRepo": false,
-            "repoName": "util.Mirror",
-            "dateCreated": "2026-07-09T18:32:34Z",
-            "likes": 0,
-            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
-            "yyyy": 2026,
-            "topMoleculeID": "id-21902",
-            "githubMoleculesUsed": [],
-            "html_url": "https://github.com/tristan-huber/util.Mirror",
-            "topics": [
-              "abundance-tool"
-            ],
-            "pullRequests": [],
-            "parentRepo": null,
-            "forks": 0,
-            "dateModified": "739814",
-            "ranking": 2.7,
-            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
-            "owner": "tristan-huber",
-            "description": "Mirror an assembly across the XZ plane.",
-            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
-            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
-            "isLocal": false
-          },
-          "unitsKey": "Unitless",
-          "fileTypeVersion": 1,
-          "lastReloadedFromGithubAt": 1786139782519
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.6620171673819742,
-          "y": 0.19814241486068113,
-          "uniqueID": "id-5326",
-          "name": "util.Mirror",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-5327",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Code",
-              "x": 0.4387814879906269,
-              "y": 0.2325,
-              "uniqueID": "id-5328",
-              "ioValues": [
-                {
-                  "name": "assembly",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ],
-              "interpreterVersion": 1,
-              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
-              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
-              "uniqueID": "id-5329",
-              "name": "assembly"
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-5328",
-              "ap2ID": "id-5327"
-            },
-            {
-              "ap2Name": "assembly",
-              "ap1ID": "id-5329",
-              "ap2ID": "id-5328"
-            }
-          ],
-          "parentRepo": {
-            "lastFoundGit": "2026-08-07T18:23:38.949Z",
-            "privateRepo": false,
-            "repoName": "util.Mirror",
-            "dateCreated": "2026-07-09T18:32:34Z",
-            "likes": 0,
-            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
-            "yyyy": 2026,
-            "topMoleculeID": "id-21902",
-            "githubMoleculesUsed": [],
-            "html_url": "https://github.com/tristan-huber/util.Mirror",
-            "topics": [
-              "abundance-tool"
-            ],
-            "pullRequests": [],
-            "parentRepo": null,
-            "forks": 0,
-            "dateModified": "739814",
-            "ranking": 2.7,
-            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
-            "owner": "tristan-huber",
-            "description": "Mirror an assembly across the XZ plane.",
-            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
-            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
-            "isLocal": false
-          },
-          "unitsKey": "Unitless",
-          "fileTypeVersion": 1,
-          "lastReloadedFromGithubAt": 1786139890716
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.73006993006993,
-          "y": 0.47678018575851394,
-          "uniqueID": "id-5330",
-          "name": "util.Mirror",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-5331",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Code",
-              "x": 0.4387814879906269,
-              "y": 0.2325,
-              "uniqueID": "id-5332",
-              "ioValues": [
-                {
-                  "name": "assembly",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ],
-              "interpreterVersion": 1,
-              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
-              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
-              "uniqueID": "id-5333",
-              "name": "assembly"
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-5332",
-              "ap2ID": "id-5331"
-            },
-            {
-              "ap2Name": "assembly",
-              "ap1ID": "id-5333",
-              "ap2ID": "id-5332"
-            }
-          ],
-          "parentRepo": {
-            "lastFoundGit": "2026-08-07T18:23:38.949Z",
-            "privateRepo": false,
-            "repoName": "util.Mirror",
-            "dateCreated": "2026-07-09T18:32:34Z",
-            "likes": 0,
-            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
-            "yyyy": 2026,
-            "topMoleculeID": "id-21902",
-            "githubMoleculesUsed": [],
-            "html_url": "https://github.com/tristan-huber/util.Mirror",
-            "topics": [
-              "abundance-tool"
-            ],
-            "pullRequests": [],
-            "parentRepo": null,
-            "forks": 0,
-            "dateModified": "739814",
-            "ranking": 2.7,
-            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
-            "owner": "tristan-huber",
-            "description": "Mirror an assembly across the XZ plane.",
-            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
-            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
-            "isLocal": false
-          },
-          "unitsKey": "Unitless",
-          "fileTypeVersion": 1,
-          "lastReloadedFromGithubAt": 1786139890716
-        },
-        {
-          "atomType": "GitHubMolecule",
-          "x": 0.6342657342657343,
-          "y": 0.8575851393188855,
-          "uniqueID": "id-5334",
-          "name": "util.Mirror",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-5335",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Code",
-              "x": 0.4387814879906269,
-              "y": 0.2325,
-              "uniqueID": "id-5336",
-              "ioValues": [
-                {
-                  "name": "assembly",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ],
-              "interpreterVersion": 1,
-              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
-              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
-            },
-            {
-              "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
-              "uniqueID": "id-5337",
-              "name": "assembly"
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-5336",
-              "ap2ID": "id-5335"
-            },
-            {
-              "ap2Name": "assembly",
-              "ap1ID": "id-5337",
-              "ap2ID": "id-5336"
-            }
-          ],
-          "parentRepo": {
-            "lastFoundGit": "2026-08-07T18:23:38.949Z",
-            "privateRepo": false,
-            "repoName": "util.Mirror",
-            "dateCreated": "2026-07-09T18:32:34Z",
-            "likes": 0,
-            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
-            "yyyy": 2026,
-            "topMoleculeID": "id-21902",
-            "githubMoleculesUsed": [],
-            "html_url": "https://github.com/tristan-huber/util.Mirror",
-            "topics": [
-              "abundance-tool"
-            ],
-            "pullRequests": [],
-            "parentRepo": null,
-            "forks": 0,
-            "dateModified": "739814",
-            "ranking": 2.7,
-            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
-            "owner": "tristan-huber",
-            "description": "Mirror an assembly across the XZ plane.",
-            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
-            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
-            "isLocal": false
-          },
-          "unitsKey": "Unitless",
-          "fileTypeVersion": 1,
-          "lastReloadedFromGithubAt": 1786139890716
-        },
-        {
-          "atomType": "Molecule",
-          "x": 0.11385061638868746,
-          "y": 0.5061728395061729,
-          "uniqueID": "id-5338",
-          "name": "brackt",
-          "topLevel": false,
-          "allAtoms": [
-            {
-              "atomType": "Output",
-              "x": 0.98,
-              "y": 0.5,
-              "uniqueID": "id-5339",
-              "ioValues": [
-                {
-                  "name": "number or geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                }
-              ]
-            },
-            {
-              "atomType": "Rectangle",
-              "x": 0.12980420594633793,
-              "y": 0.7067901234567902,
-              "uniqueID": "id-5340",
-              "ioValues": [
-                {
-                  "name": "x length",
-                  "ioValue": 0.75
-                },
-                {
-                  "name": "y length",
-                  "ioValue": 1.5
-                }
-              ]
-            },
-            {
-              "atomType": "Extrude",
-              "x": 0.27918781725888325,
-              "y": 0.5617283950617284,
-              "uniqueID": "id-5341",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "height",
-                  "ioValue": 0.1875
-                }
-              ]
-            },
-            {
-              "atomType": "Move",
-              "x": 0.4590282813633068,
-              "y": 0.632716049382716,
-              "uniqueID": "id-5342",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "xDist",
-                  "ioValue": 0.375
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
-              "atomType": "Move",
-              "x": 0.47353154459753444,
-              "y": 0.3950617283950617,
-              "uniqueID": "id-5343",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "xDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
-              "atomType": "Rotate",
-              "x": 0.734590282813633,
-              "y": 0.3425925925925926,
-              "uniqueID": "id-5344",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 90
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
-              "atomType": "Move",
-              "x": 0.8571428571428571,
-              "y": 0.3055555555555555,
-              "uniqueID": "id-5345",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "xDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "yDist",
-                  "ioValue": 0
-                },
-                {
-                  "name": "zDist",
-                  "ioValue": 1
-                }
-              ]
-            },
-            {
-              "atomType": "Assembly",
-              "x": 0.6366932559825961,
-              "y": 0.3611111111111111,
-              "uniqueID": "id-5346",
-              "ioValues": [
-                {
-                  "name": "Shape 2",
-                  "ioValue": null
-                },
-                {
-                  "name": "Shape 7",
-                  "ioValue": null
-                }
-              ]
-            }
-          ],
-          "allConnectors": [
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5340",
-              "ap2ID": "id-5341"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5341",
-              "ap2ID": "id-5342"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5341",
-              "ap2ID": "id-5343"
-            },
-            {
-              "ap2Name": "Shape 2",
-              "ap1ID": "id-5342",
-              "ap2ID": "id-5346"
-            },
-            {
-              "ap2Name": "Shape 7",
-              "ap1ID": "id-5343",
-              "ap2ID": "id-5346"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5344",
-              "ap2ID": "id-5345"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-5346",
-              "ap2ID": "id-5344"
-            },
-            {
-              "ap2Name": "number or geometry",
-              "ap1ID": "id-5346",
-              "ap2ID": "id-5339"
-            }
-          ],
-          "fileTypeVersion": 1
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-5310",
-          "ap2ID": "id-5308"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5311",
-          "ap2ID": "id-5312"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-5312",
-          "ap2ID": "id-5310"
-        },
-        {
-          "ap2Name": "assembly",
-          "ap1ID": "id-5312",
-          "ap2ID": "id-5326"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5313",
-          "ap2ID": "id-5311"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5313",
-          "ap2ID": "id-5314"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5314",
-          "ap2ID": "id-5315"
-        },
-        {
-          "ap2Name": "Shape 4",
-          "ap1ID": "id-5315",
-          "ap2ID": "id-5310"
-        },
-        {
-          "ap2Name": "assembly",
-          "ap1ID": "id-5315",
-          "ap2ID": "id-5330"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5316",
-          "ap2ID": "id-5317"
-        },
-        {
-          "ap2Name": "Shape 4",
-          "ap1ID": "id-5317",
-          "ap2ID": "id-5321"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5318",
-          "ap2ID": "id-5319"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5318",
-          "ap2ID": "id-5316"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-5319",
-          "ap2ID": "id-5320"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-5320",
-          "ap2ID": "id-5321"
-        },
-        {
-          "ap2Name": "assembly",
-          "ap1ID": "id-5320",
-          "ap2ID": "id-5334"
-        },
-        {
-          "ap2Name": "Shape 6",
-          "ap1ID": "id-5321",
-          "ap2ID": "id-5310"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-5322",
-          "ap2ID": "id-5318"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-5326",
-          "ap2ID": "id-5310"
-        },
-        {
-          "ap2Name": "Shape 5",
-          "ap1ID": "id-5330",
-          "ap2ID": "id-5310"
-        },
-        {
-          "ap2Name": "Shape 3",
-          "ap1ID": "id-5334",
-          "ap2ID": "id-5321"
-        },
-        {
-          "ap2Name": "assembly",
-          "ap1ID": "id-5338",
-          "ap2ID": "id-5322"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-5338",
-          "ap2ID": "id-5313"
-        }
-      ],
-      "fileTypeVersion": 1
-    },
-    {
       "atomType": "ExtractTag",
-      "x": 0.2965917331399565,
-      "y": 0.16666666666666666,
+      "x": 0.29296591733139954,
+      "y": 0.2561728395061728,
       "uniqueID": "id-5478",
       "name": "Extract Left",
       "ioValues": [
@@ -7404,7 +6273,7 @@
     {
       "atomType": "Molecule",
       "x": 0.40464104423495284,
-      "y": 0.31790123456790126,
+      "y": 0.17901234567901234,
       "uniqueID": "id-5481",
       "name": "AddsideLip",
       "ioValues": [
@@ -7437,13 +6306,14 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.17693981145757795,
-          "y": 0.8703703703703702,
+          "x": 0.17621464829586655,
+          "y": 0.8580246913580246,
           "uniqueID": "id-5491",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 2
+              "ioValue": 1.5,
+              "currentEquation": "1.5"
             },
             {
               "name": "y length",
@@ -7454,8 +6324,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.293691080493111,
-          "y": 0.7283950617283951,
+          "x": 0.2915155910079768,
+          "y": 0.7592592592592592,
           "uniqueID": "id-5495",
           "ioValues": [
             {
@@ -7471,8 +6341,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.44670050761421315,
-          "y": 0.7129629629629629,
+          "x": 0.4532269760696157,
+          "y": 0.7962962962962963,
           "uniqueID": "id-5499",
           "ioValues": [
             {
@@ -7481,22 +6351,25 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1
+              "ioValue": 1.5,
+              "currentEquation": "1.5"
             },
             {
               "name": "yDist",
-              "ioValue": 4
+              "ioValue": 4.2,
+              "currentEquation": "4.2"
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 1,
+              "currentEquation": "1"
             }
           ]
         },
         {
           "atomType": "Rotate",
-          "x": 0.527193618564177,
-          "y": 0.6944444444444444,
+          "x": 0.5293691080493111,
+          "y": 0.6512345679012346,
           "uniqueID": "id-5505",
           "ioValues": [
             {
@@ -7519,14 +6392,14 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.6323422770123278,
-          "y": 0.5401234567901234,
+          "x": 0.7331399564902102,
+          "y": 0.5216049382716049,
           "uniqueID": "id-5511",
           "ioValues": [
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "rotate-move-rotate-extrude-rectangle-2-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-0--5-1-4-0-0-0-0",
+                "geometry": "rotate-move-rotate-extrude-rectangle-1.5-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-90--11-1.5-4.2-1-0-0-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -7615,14 +6488,42 @@
                 "bom": [],
                 "nonReplicadSerialized": []
               }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": "4b0b8e43-0",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "3D"
+              }
             }
           ],
           "unionType": "Fusion"
         },
         {
           "atomType": "Rotate",
-          "x": 0.37128353879622916,
-          "y": 0.8641975308641975,
+          "x": 0.36693255982596085,
+          "y": 0.8302469135802468,
           "uniqueID": "id-5516",
           "ioValues": [
             {
@@ -7636,14 +6537,99 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0
+              "ioValue": 90,
+              "currentEquation": "90"
             },
             {
               "name": "z-axis degrees",
-              "ioValue": -5,
-              "currentEquation": "-5"
+              "ioValue": -11
             }
           ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.6881798404641044,
+          "y": 0.8580246913580246,
+          "uniqueID": "id-5526",
+          "name": "util.Mirror",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-5523",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.4387814879906269,
+              "y": 0.2325,
+              "uniqueID": "id-5524",
+              "ioValues": [
+                {
+                  "name": "assembly",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "interpreterVersion": 1,
+              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
+              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-5525",
+              "name": "assembly"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-5524",
+              "ap2ID": "id-5523"
+            },
+            {
+              "ap2Name": "assembly",
+              "ap1ID": "id-5525",
+              "ap2ID": "id-5524"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-08-23T18:23:39.032Z",
+            "privateRepo": false,
+            "repoName": "util.Mirror",
+            "dateCreated": "2026-07-09T18:32:34Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-21902",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/tristan-huber/util.Mirror",
+            "topics": [
+              "abundance-tool"
+            ],
+            "pullRequests": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739814",
+            "ranking": 6.6,
+            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
+            "owner": "tristan-huber",
+            "description": "Mirror an assembly across the XZ plane.",
+            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Unitless",
+          "fileTypeVersion": 1,
+          "lastReloadedFromGithubAt": 1787524359127
         }
       ],
       "allConnectors": [
@@ -7673,6 +6659,11 @@
           "ap2ID": "id-5511"
         },
         {
+          "ap2Name": "assembly",
+          "ap1ID": "id-5505",
+          "ap2ID": "id-5526"
+        },
+        {
           "ap2Name": "number or geometry",
           "ap1ID": "id-5511",
           "ap2ID": "id-5483"
@@ -7681,6 +6672,855 @@
           "ap2Name": "geometry",
           "ap1ID": "id-5516",
           "ap2ID": "id-5499"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-5526",
+          "ap2ID": "id-5511"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.2951414068165337,
+      "y": 0.4104938271604938,
+      "uniqueID": "id-5536",
+      "name": "Extract Mid",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tagIndex": 0,
+      "selectedTags": [
+        "Mid"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.40464104423495284,
+      "y": 0.4074074074074074,
+      "uniqueID": "id-5539",
+      "name": "AddsideLip",
+      "ioValues": [
+        {
+          "name": "input",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-5540",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-5541",
+          "name": "input",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.17621464829586655,
+          "y": 0.8580246913580246,
+          "uniqueID": "id-5542",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 1.5
+            },
+            {
+              "name": "y length",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2915155910079768,
+          "y": 0.7592592592592592,
+          "uniqueID": "id-5543",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 0.25
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4532269760696157,
+          "y": 0.7962962962962963,
+          "uniqueID": "id-5544",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 1.5
+            },
+            {
+              "name": "yDist",
+              "ioValue": 4.2
+            },
+            {
+              "name": "zDist",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.5293691080493111,
+          "y": 0.6512345679012346,
+          "uniqueID": "id-5545",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.7331399564902102,
+          "y": 0.5216049382716049,
+          "uniqueID": "id-5546",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "rotate-move-rotate-extrude-rectangle-1.5-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-90--11-1.5-4.2-1-0-0-0",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": "cut-cut-fuse-#8efa687cb980d52b64a908aca6e9e239-fuse-#1ed9b47dc4409379dee5bd6b37fbf1b8-move-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-6-3.5-0",
+                    "tags": [
+                      "Mid"
+                    ],
+                    "bom": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "dimension": "3D",
+                    "boundingBox": {
+                      "min": [
+                        1.999999849999993,
+                        -3.9061102399872603,
+                        -1.5e-7
+                      ],
+                      "max": [
+                        10.25000015,
+                        3.9061102399872603,
+                        1.85000015
+                      ]
+                    }
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": "4b0b8e43-0",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "3D"
+              }
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.36693255982596085,
+          "y": 0.8302469135802468,
+          "uniqueID": "id-5547",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": -11
+            }
+          ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.6881798404641044,
+          "y": 0.8580246913580246,
+          "uniqueID": "id-5548",
+          "name": "util.Mirror",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-5549",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.4387814879906269,
+              "y": 0.2325,
+              "uniqueID": "id-5550",
+              "ioValues": [
+                {
+                  "name": "assembly",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "interpreterVersion": 1,
+              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
+              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-5551",
+              "name": "assembly"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-5550",
+              "ap2ID": "id-5549"
+            },
+            {
+              "ap2Name": "assembly",
+              "ap1ID": "id-5551",
+              "ap2ID": "id-5550"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-08-23T18:23:39.032Z",
+            "privateRepo": false,
+            "repoName": "util.Mirror",
+            "dateCreated": "2026-07-09T18:32:34Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-21902",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/tristan-huber/util.Mirror",
+            "topics": [
+              "abundance-tool"
+            ],
+            "pullRequests": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739814",
+            "ranking": 6.6,
+            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
+            "owner": "tristan-huber",
+            "description": "Mirror an assembly across the XZ plane.",
+            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Unitless",
+          "fileTypeVersion": 1,
+          "lastReloadedFromGithubAt": 1787524359127
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-5541",
+          "ap2ID": "id-5546"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5542",
+          "ap2ID": "id-5543"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5543",
+          "ap2ID": "id-5547"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5544",
+          "ap2ID": "id-5545"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-5545",
+          "ap2ID": "id-5546"
+        },
+        {
+          "ap2Name": "assembly",
+          "ap1ID": "id-5545",
+          "ap2ID": "id-5548"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5546",
+          "ap2ID": "id-5540"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5547",
+          "ap2ID": "id-5544"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-5548",
+          "ap2ID": "id-5546"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "ExtractTag",
+      "x": 0.28426395939086296,
+      "y": 0.5493827160493827,
+      "uniqueID": "id-5593",
+      "name": "Extract Right",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "tagIndex": 0,
+      "selectedTags": [
+        "Right"
+      ],
+      "includeUntagged": false,
+      "notKeepOut": false
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.4314720812182741,
+      "y": 0.5925925925925926,
+      "uniqueID": "id-5596",
+      "name": "AddsideLip",
+      "ioValues": [
+        {
+          "name": "input",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-5597",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-5598",
+          "name": "input",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.17621464829586655,
+          "y": 0.8580246913580246,
+          "uniqueID": "id-5599",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 1.5
+            },
+            {
+              "name": "y length",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2915155910079768,
+          "y": 0.7592592592592592,
+          "uniqueID": "id-5600",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 0.25
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4532269760696157,
+          "y": 0.7962962962962963,
+          "uniqueID": "id-5601",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 1.5
+            },
+            {
+              "name": "yDist",
+              "ioValue": 4.2
+            },
+            {
+              "name": "zDist",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.5293691080493111,
+          "y": 0.6512345679012346,
+          "uniqueID": "id-5602",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.7331399564902102,
+          "y": 0.5216049382716049,
+          "uniqueID": "id-5603",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": {
+                "geometry": "rotate-move-rotate-extrude-rectangle-1.5-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-90--11-1.5-4.2-1-0-0-0",
+                "dimension": "3D",
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": []
+              }
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": "cut-intersect-move-extrude-rectangle-8-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-14-0-0-fuse-extrude-6c8856c8-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.15-extrude-cut-6c8856c8-0-shrinkWrap-fuse-circle-4-move-circle-1.685-13-0-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.85-fuse-#8efa687cb980d52b64a908aca6e9e239",
+                    "tags": [
+                      "Right"
+                    ],
+                    "color": "#aad7f2",
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "bom": [],
+                    "dimension": "3D",
+                    "boundingBox": {
+                      "min": [
+                        9.999999849999998,
+                        -2.45842182665917,
+                        -1.5e-7
+                      ],
+                      "max": [
+                        14.88500015,
+                        2.45842182665917,
+                        1.85000015
+                      ]
+                    }
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": []
+              }
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": {
+                "geometry": "4b0b8e43-0",
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "metadata": {},
+                "dimension": "3D"
+              }
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.36693255982596085,
+          "y": 0.8302469135802468,
+          "uniqueID": "id-5604",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": -11
+            }
+          ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.6881798404641044,
+          "y": 0.8580246913580246,
+          "uniqueID": "id-5605",
+          "name": "util.Mirror",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-5606",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.4387814879906269,
+              "y": 0.2325,
+              "uniqueID": "id-5607",
+              "ioValues": [
+                {
+                  "name": "assembly",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "interpreterVersion": 1,
+              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
+              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-5608",
+              "name": "assembly"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-5607",
+              "ap2ID": "id-5606"
+            },
+            {
+              "ap2Name": "assembly",
+              "ap1ID": "id-5608",
+              "ap2ID": "id-5607"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-08-23T18:23:39.032Z",
+            "privateRepo": false,
+            "repoName": "util.Mirror",
+            "dateCreated": "2026-07-09T18:32:34Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-21902",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/tristan-huber/util.Mirror",
+            "topics": [
+              "abundance-tool"
+            ],
+            "pullRequests": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739814",
+            "ranking": 6.6,
+            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
+            "owner": "tristan-huber",
+            "description": "Mirror an assembly across the XZ plane.",
+            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Unitless",
+          "fileTypeVersion": 1,
+          "lastReloadedFromGithubAt": 1787524359127
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-5598",
+          "ap2ID": "id-5603"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5599",
+          "ap2ID": "id-5600"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5600",
+          "ap2ID": "id-5604"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5601",
+          "ap2ID": "id-5602"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-5602",
+          "ap2ID": "id-5603"
+        },
+        {
+          "ap2Name": "assembly",
+          "ap1ID": "id-5602",
+          "ap2ID": "id-5605"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5603",
+          "ap2ID": "id-5597"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5604",
+          "ap2ID": "id-5601"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-5605",
+          "ap2ID": "id-5603"
         }
       ],
       "fileTypeVersion": 1
@@ -7688,74 +7528,9 @@
   ],
   "allConnectors": [
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-162",
-      "ap2ID": "id-166"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-166",
-      "ap2ID": "id-176"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-170",
-      "ap2ID": "id-193"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-176",
-      "ap2ID": "id-182"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-182",
-      "ap2ID": "id-629"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-188",
-      "ap2ID": "id-2"
-    },
-    {
-      "ap2Name": "Geometry",
-      "ap1ID": "id-188",
-      "ap2ID": "id-216"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-193",
-      "ap2ID": "id-2942"
-    },
-    {
       "ap2Name": "shape",
       "ap1ID": "id-2942",
       "ap2ID": "id-2929"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-2948",
-      "ap2ID": "id-170"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-2929",
-      "ap2ID": "id-629"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-2929",
-      "ap2ID": "id-188"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-2740",
-      "ap2ID": "id-2948"
-    },
-    {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-4",
-      "ap2ID": "id-2948"
     },
     {
       "ap2Name": "geometry",
@@ -7763,9 +7538,44 @@
       "ap2ID": "id-5478"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-5536"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4",
+      "ap2ID": "id-5593"
+    },
+    {
       "ap2Name": "input",
       "ap1ID": "id-5478",
       "ap2ID": "id-5481"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-5481",
+      "ap2ID": "id-2942"
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-5536",
+      "ap2ID": "id-5539"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-5539",
+      "ap2ID": "id-2942"
+    },
+    {
+      "ap2Name": "input",
+      "ap1ID": "id-5593",
+      "ap2ID": "id-5596"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-5596",
+      "ap2ID": "id-2942"
     }
   ],
   "unitsKey": "Unitless",
