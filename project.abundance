@@ -9236,8 +9236,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.12517482517482517,
-          "y": 0.8544891640866873,
+          "x": 0.12980420594633793,
+          "y": 0.8641975308641975,
           "uniqueID": "id-6235",
           "ioValues": [
             {
@@ -9857,8 +9857,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.7933284989122552,
-      "y": 0.632716049382716,
+      "x": 0.7686729514140681,
+      "y": 0.6450617283950617,
       "uniqueID": "id-6338",
       "name": "Side holders",
       "ioValues": [
@@ -10501,6 +10501,598 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.8281363306744017,
+      "y": 0.8302469135802468,
+      "uniqueID": "id-6437",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 4",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.7179115300942712,
+      "y": 0.9351851851851851,
+      "uniqueID": "id-6443",
+      "name": "Side holders",
+      "ioValues": [
+        {
+          "name": "input",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-6444",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.12517482517482517,
+          "y": 0.8544891640866873,
+          "uniqueID": "id-6445",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 3
+            },
+            {
+              "name": "y length",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3132704858593183,
+          "y": 0.7253086419753086,
+          "uniqueID": "id-6446",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 0.5
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.4684554024655548,
+          "y": 0.6080246913580247,
+          "uniqueID": "id-6447",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5902828136330674,
+          "y": 0.5740740740740741,
+          "uniqueID": "id-6448",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 4.5
+            },
+            {
+              "name": "yDist",
+              "ioValue": 1.6
+            },
+            {
+              "name": "zDist",
+              "ioValue": -0.2
+            }
+          ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.3335750543872371,
+          "y": 0.5092592592592593,
+          "uniqueID": "id-6449",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 213
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5801305293691081,
+          "y": 0.3672839506172839,
+          "uniqueID": "id-6450",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 1
+            },
+            {
+              "name": "yDist",
+              "ioValue": 2.95
+            },
+            {
+              "name": "zDist",
+              "ioValue": -2.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.608411892675852,
+          "y": 0.8487654320987654,
+          "uniqueID": "id-6453",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -8
+            },
+            {
+              "name": "yDist",
+              "ioValue": 1.6
+            },
+            {
+              "name": "zDist",
+              "ioValue": -0.2
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-6454",
+          "name": "input",
+          "type": "geometry"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.293691080493111,
+          "y": 0.28703703703703703,
+          "uniqueID": "id-6455",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 213
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6787527193618563,
+          "y": 0.13580246913580246,
+          "uniqueID": "id-6456",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 1
+            },
+            {
+              "name": "yDist",
+              "ioValue": 2.95
+            },
+            {
+              "name": "zDist",
+              "ioValue": -2.5
+            }
+          ]
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.8825235678027556,
+          "y": 0.3487654320987654,
+          "uniqueID": "id-6457",
+          "ioValues": [
+            {
+              "name": "Shape 2",
+              "ioValue": {
+                "geometry": [
+                  {
+                    "geometry": [
+                      {
+                        "geometry": "move-rotate-cut-cut-#724c9144bb214c24a8b28e56ae0438d8-rotate-move-rotate-fuse-extrude-polysides-0.5-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-move-rotate-extrude-polysides-0.5-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-0-0-180-0-0.25-0-90-90--10.22-9.91-2.76-1-0-0-0-90-213-0-1-2.95--2.5",
+                        "tags": [
+                          "Rfinal"
+                        ],
+                        "bom": [],
+                        "plane": {
+                          "origin": [
+                            0,
+                            0,
+                            0
+                          ],
+                          "xDir": [
+                            1,
+                            0,
+                            0
+                          ],
+                          "normal": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        "color": "#aad7f2",
+                        "dimension": "3D"
+                      }
+                    ],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "tags": [],
+                    "bom": [],
+                    "nonReplicadSerialized": []
+                  }
+                ],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "tags": [],
+                "bom": [],
+                "nonReplicadSerialized": {}
+              }
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.10587382160986222,
+          "y": 0.5740740740740741,
+          "uniqueID": "id-6458",
+          "name": "Molecule",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-6459",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.30700280112044814,
+              "y": 0.2007462686567164,
+              "uniqueID": "id-6460",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 3.37,
+                  "currentEquation": "H_pulley_d"
+                }
+              ]
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.20896358543417365,
+              "y": 0.2634328358208955,
+              "uniqueID": "id-6461",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 8,
+                  "currentEquation": "L_pulley_d"
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.43445378151260505,
+              "y": 0.2126865671641791,
+              "uniqueID": "id-6462",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 13
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "ShrinkWrap",
+              "x": 0.46456582633053217,
+              "y": 0.44552238805970157,
+              "uniqueID": "id-6463",
+              "name": "Shrink Wrap",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Shape 3",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Shape 1",
+                  "ioValue": {
+                    "geometry": "move-circle-1.685-13-0-0",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                },
+                {
+                  "name": "Shape 2",
+                  "ioValue": {
+                    "geometry": "circle-4",
+                    "dimension": "2D",
+                    "tags": [],
+                    "plane": {
+                      "origin": [
+                        0,
+                        0,
+                        0
+                      ],
+                      "xDir": [
+                        1,
+                        0,
+                        0
+                      ],
+                      "normal": [
+                        0,
+                        0,
+                        1
+                      ]
+                    },
+                    "color": "#aad7f2",
+                    "bom": []
+                  }
+                },
+                {
+                  "name": "Shape 3",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.5833333333333334,
+              "y": 0.6,
+              "uniqueID": "id-6464",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 10
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-6460",
+              "ap2ID": "id-6462"
+            },
+            {
+              "ap2Name": "Shape 2",
+              "ap1ID": "id-6461",
+              "ap2ID": "id-6463"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-6462",
+              "ap2ID": "id-6463"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-6463",
+              "ap2ID": "id-6464"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-6464",
+              "ap2ID": "id-6459"
+            }
+          ],
+          "fileTypeVersion": 1
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6445",
+          "ap2ID": "id-6446"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6446",
+          "ap2ID": "id-6447"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6447",
+          "ap2ID": "id-6448"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6447",
+          "ap2ID": "id-6453"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6449",
+          "ap2ID": "id-6450"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6454",
+          "ap2ID": "id-6455"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6455",
+          "ap2ID": "id-6456"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-6456",
+          "ap2ID": "id-6457"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-6457",
+          "ap2ID": "id-6444"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6458",
+          "ap2ID": "id-6449"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -10610,6 +11202,11 @@
       "ap2ID": "id-5983"
     },
     {
+      "ap2Name": "input",
+      "ap1ID": "id-5831",
+      "ap2ID": "id-6443"
+    },
+    {
       "ap2Name": "Shape 6",
       "ap1ID": "id-5834",
       "ap2ID": "id-2942"
@@ -10630,9 +11227,24 @@
       "ap2ID": "id-5983"
     },
     {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-6233",
+      "ap2ID": "id-6437"
+    },
+    {
       "ap2Name": "input_1",
       "ap1ID": "id-6338",
       "ap2ID": "id-5983"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-6338",
+      "ap2ID": "id-6437"
+    },
+    {
+      "ap2Name": "Shape 4",
+      "ap1ID": "id-6443",
+      "ap2ID": "id-6437"
     }
   ],
   "unitsKey": "Unitless",
