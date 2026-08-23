@@ -7899,10 +7899,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.6258158085569253,
-      "y": 0.7037037037037037,
+      "x": 0.6903553299492386,
+      "y": 0.7561728395061728,
       "uniqueID": "id-5705",
-      "name": "AddsideLip",
+      "name": "AddDovetail",
       "ioValues": [
         {
           "name": "input",
@@ -7965,8 +7965,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4655547498187092,
-          "y": 0.8395061728395062,
+          "x": 0.551849166062364,
+          "y": 0.7993827160493827,
           "uniqueID": "id-5710",
           "ioValues": [
             {
@@ -7975,12 +7975,13 @@
             },
             {
               "name": "xDist",
-              "ioValue": 10.55
+              "ioValue": 9.91,
+              "currentEquation": "9.91"
             },
             {
               "name": "yDist",
-              "ioValue": 2.61,
-              "currentEquation": "2.61"
+              "ioValue": 2.76,
+              "currentEquation": "2.76"
             },
             {
               "name": "zDist",
@@ -7991,8 +7992,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.5939086294416244,
-          "y": 0.6481481481481481,
+          "x": 0.6200145032632342,
+          "y": 0.6296296296296297,
           "uniqueID": "id-5711",
           "ioValues": [
             {
@@ -8014,222 +8015,9 @@
           ]
         },
         {
-          "atomType": "Fusion",
-          "x": 0.7367657722987672,
-          "y": 0.5092592592592593,
-          "uniqueID": "id-5712",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": {
-                "geometry": "rotate-move-rotate-fuse-extrude-polysides-0.5-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-move-rotate-extrude-polysides-0.5-3-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-0-0-180-0-0.25-0-90-90--10.22-10.55-2.61-1-0-0-0",
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "dimension": "3D"
-              }
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": {
-                "geometry": [
-                  {
-                    "geometry": "fuse-4b0b8e43-0-fuse-fuse-#1ed9b47dc4409379dee5bd6b37fbf1b8-rotate-move-rotate-extrude-rectangle-1.5-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-90--11-1.5-4.2-1-0-0-0",
-                    "tags": [],
-                    "bom": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "dimension": "3D",
-                    "boundingBox": {
-                      "min": [
-                        -4.200000150000001,
-                        -4.295404647688273,
-                        -1.50000000444089e-7
-                      ],
-                      "max": [
-                        2.2500001500000004,
-                        4.295404647688273,
-                        1.8500001500000005
-                      ]
-                    }
-                  },
-                  {
-                    "geometry": "fuse-b05abd18-0-fuse-fuse-d7074d94-0-fuse-cut-cut-fuse-#8efa687cb980d52b64a908aca6e9e239-fuse-#1ed9b47dc4409379dee5bd6b37fbf1b8-move-extrude-circle-1.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-3-6-3.5-0-rotate-move-rotate-extrude-rectangle-1.5-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-90--11-2.55-4-1-0-0-0-rotate-move-rotate-extrude-rectangle-1.5-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-90--10.2-9.5-2.78-1-0-0-0",
-                    "tags": [],
-                    "bom": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "dimension": "3D",
-                    "boundingBox": {
-                      "min": [
-                        1.9999998499999911,
-                        -4.095404647688274,
-                        -1.50000001776357e-7
-                      ],
-                      "max": [
-                        10.250000150000002,
-                        4.095404647688274,
-                        1.8500001500000018
-                      ]
-                    }
-                  },
-                  {
-                    "geometry": "fuse-d1ab3278-0-fuse-cut-intersect-move-extrude-rectangle-8-9-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-14-0-0-fuse-extrude-6c8856c8-0-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.15-extrude-cut-6c8856c8-0-shrinkWrap-fuse-circle-4-move-circle-1.685-13-0-0-50-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1.85-fuse-#8efa687cb980d52b64a908aca6e9e239-rotate-move-rotate-extrude-rectangle-1.5-1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-0.25-90-90--10.22-10.55-2.6-1-0-0-0",
-                    "tags": [],
-                    "bom": [],
-                    "plane": {
-                      "origin": [
-                        0,
-                        0,
-                        0
-                      ],
-                      "xDir": [
-                        1,
-                        0,
-                        0
-                      ],
-                      "normal": [
-                        0,
-                        0,
-                        1
-                      ]
-                    },
-                    "color": "#aad7f2",
-                    "dimension": "3D",
-                    "boundingBox": {
-                      "min": [
-                        9.999999849999996,
-                        -2.688714289300422,
-                        -1.50000000888178e-7
-                      ],
-                      "max": [
-                        14.885000150000002,
-                        2.688714289300422,
-                        1.850000150000001
-                      ]
-                    }
-                  }
-                ],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": [],
-                "dimension": "3D",
-                "nonReplicadSerialized": [],
-                "boundingBox": {
-                  "min": [
-                    -4.200000150000001,
-                    -4.295404647688273,
-                    -1.50000001776357e-7
-                  ],
-                  "max": [
-                    14.885000150000002,
-                    4.295404647688273,
-                    1.8500001500000018
-                  ]
-                }
-              }
-            },
-            {
-              "name": "Shape 3",
-              "ioValue": {
-                "geometry": "e131bef7-0",
-                "color": "#aad7f2",
-                "tags": [],
-                "bom": [],
-                "plane": {
-                  "origin": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "xDir": [
-                    1,
-                    0,
-                    0
-                  ],
-                  "normal": [
-                    0,
-                    0,
-                    1
-                  ]
-                },
-                "metadata": {},
-                "dimension": "3D"
-              }
-            }
-          ],
-          "unionType": "Fusion"
-        },
-        {
           "atomType": "Rotate",
-          "x": 0.40609137055837563,
-          "y": 0.8055555555555556,
+          "x": 0.4720812182741117,
+          "y": 0.6234567901234568,
           "uniqueID": "id-5713",
           "ioValues": [
             {
@@ -8398,8 +8186,8 @@
         },
         {
           "atomType": "Fusion",
-          "x": 0.536620739666425,
-          "y": 0.32098765432098764,
+          "x": 0.3995649021029732,
+          "y": 0.48148148148148145,
           "uniqueID": "id-5772",
           "ioValues": [
             {
@@ -8484,13 +8272,167 @@
               "currentEquation": "0"
             }
           ]
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.5032632342277013,
+          "y": 0.33641975308641975,
+          "uniqueID": "id-5787",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": -10.22
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.5801305293691081,
+          "y": 0.23765432098765432,
+          "uniqueID": "id-5793",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 2,
+              "currentEquation": "2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 4.15
+            },
+            {
+              "name": "zDist",
+              "ioValue": 1
+            }
+          ]
+        },
+        {
+          "atomType": "GitHubMolecule",
+          "x": 0.668600435097897,
+          "y": 0.2222222222222222,
+          "uniqueID": "id-5799",
+          "name": "util.Mirror",
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-5800",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Code",
+              "x": 0.4387814879906269,
+              "y": 0.2325,
+              "uniqueID": "id-5801",
+              "ioValues": [
+                {
+                  "name": "assembly",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "interpreterVersion": 1,
+              "code": "function run(assembly: Assembly) {\n  return assembly.onLeafs((leaf) => {\n    if (leaf.geometry instanceof replicad.Drawing) {\n      leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\")\n    } else {\n      leaf.geometry = leaf.geometry.mirror(\"XZ\")\n      if (leaf.geometry instanceof replicad.Face) {\n        leaf.geometry = leaf.geometry.flipOrientation()\n      }\n    }\n    return leaf\n  })\n}",
+              "compiledCode": "\"use strict\";\nfunction run(assembly) {\n    return assembly.onLeafs((leaf) => {\n        if (leaf.geometry instanceof replicad.Drawing) {\n            leaf.geometry = leaf.geometry.mirror([1, 0], [0, 0], \"plane\");\n        }\n        else {\n            leaf.geometry = leaf.geometry.mirror(\"XZ\");\n            if (leaf.geometry instanceof replicad.Face) {\n                leaf.geometry = leaf.geometry.flipOrientation();\n            }\n        }\n        return leaf;\n    });\n}\n"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.025384615384615384,
+              "y": 0.15384615384615385,
+              "uniqueID": "id-5802",
+              "name": "assembly"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-5801",
+              "ap2ID": "id-5800"
+            },
+            {
+              "ap2Name": "assembly",
+              "ap1ID": "id-5802",
+              "ap2ID": "id-5801"
+            }
+          ],
+          "parentRepo": {
+            "lastFoundGit": "2026-08-23T18:23:39.032Z",
+            "privateRepo": false,
+            "repoName": "util.Mirror",
+            "dateCreated": "2026-07-09T18:32:34Z",
+            "likes": 0,
+            "readMe": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/README.md?sanitize=true",
+            "yyyy": 2026,
+            "topMoleculeID": "id-21902",
+            "githubMoleculesUsed": [],
+            "html_url": "https://github.com/tristan-huber/util.Mirror",
+            "topics": [
+              "abundance-tool"
+            ],
+            "pullRequests": [],
+            "parentRepo": null,
+            "forks": 0,
+            "dateModified": "739814",
+            "ranking": 6.6,
+            "searchField": "util.mirror tristan-huber mirror an assembly across the xz plane. abundance-tool",
+            "owner": "tristan-huber",
+            "description": "Mirror an assembly across the XZ plane.",
+            "contentURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.abundance?sanitize=true",
+            "svgURL": "https://raw.githubusercontent.com/tristan-huber/util.Mirror/master/project.svg?sanitize=true",
+            "isLocal": false
+          },
+          "unitsKey": "Unitless",
+          "fileTypeVersion": 1,
+          "lastReloadedFromGithubAt": 1787524359127
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8259608411892676,
+          "y": 0.4074074074074074,
+          "uniqueID": "id-5811",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-5707",
-          "ap2ID": "id-5712"
+          "ap2ID": "id-5811"
         },
         {
           "ap2Name": "geometry",
@@ -8503,19 +8445,14 @@
           "ap2ID": "id-5711"
         },
         {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-5711",
-          "ap2ID": "id-5712"
-        },
-        {
           "ap2Name": "assembly",
           "ap1ID": "id-5711",
           "ap2ID": "id-5714"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-5712",
-          "ap2ID": "id-5706"
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-5711",
+          "ap2ID": "id-5811"
         },
         {
           "ap2Name": "geometry",
@@ -8523,9 +8460,9 @@
           "ap2ID": "id-5710"
         },
         {
-          "ap2Name": "Shape 3",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-5714",
-          "ap2ID": "id-5712"
+          "ap2ID": "id-5811"
         },
         {
           "ap2Name": "geometry",
@@ -8553,9 +8490,29 @@
           "ap2ID": "id-5713"
         },
         {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5772",
+          "ap2ID": "id-5787"
+        },
+        {
           "ap2Name": "Shape 2",
           "ap1ID": "id-5781",
           "ap2ID": "id-5772"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5787",
+          "ap2ID": "id-5793"
+        },
+        {
+          "ap2Name": "assembly",
+          "ap1ID": "id-5793",
+          "ap2ID": "id-5799"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-5811",
+          "ap2ID": "id-5706"
         }
       ],
       "fileTypeVersion": 1
