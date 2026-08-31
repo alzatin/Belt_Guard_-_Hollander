@@ -2,7 +2,7 @@
 
 # Belt_Guard_-_Hollander
 
-![](/project.svg)
+![](/project.png)
 
 ## Inputs
 
