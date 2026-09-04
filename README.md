@@ -11,6 +11,7 @@
 - **Distance_b_pulleys** (number)
 - **screw_1_d_from_l** (number)
 - **screw_1_d_from_p_2** (number)
+- **pulleyBeltTolerance** (number)
 
 
 
