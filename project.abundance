@@ -6662,7 +6662,7 @@
     {
       "atomType": "ExtractTag",
       "x": 0.3,
-      "y": 0.5,
+      "y": 0.7,
       "uniqueID": "id-5593",
       "name": "Extract Right",
       "ioValues": [
@@ -9067,8 +9067,8 @@
         },
         {
           "atomType": "Export",
-          "x": 0.3,
-          "y": 0.2,
+          "x": 0.4,
+          "y": 0.3,
           "uniqueID": "id-5999",
           "ioValues": [
             {
@@ -9086,19 +9086,19 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "LEFT",
-              "currentEquation": "LEFT"
+              "ioValue": "LEFT_sep4",
+              "currentEquation": "LEFT_sep4"
             }
           ],
           "type": "STL",
           "resolution": 96,
           "importIndex": 0,
-          "partName": "LEFT"
+          "partName": "LEFT_sep4"
         },
         {
           "atomType": "Export",
           "x": 0.5,
-          "y": 0.4,
+          "y": 0.5,
           "uniqueID": "id-6004",
           "ioValues": [
             {
@@ -9116,19 +9116,19 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "MID",
-              "currentEquation": "MID"
+              "ioValue": "MID_sep4",
+              "currentEquation": "MID_sep4"
             }
           ],
           "type": "STL",
           "resolution": 96,
           "importIndex": 0,
-          "partName": "MID"
+          "partName": "MID_sep4"
         },
         {
           "atomType": "Export",
           "x": 0.4,
-          "y": 0.5,
+          "y": 0.7,
           "uniqueID": "id-6009",
           "ioValues": [
             {
@@ -9146,14 +9146,14 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "RIGHT",
-              "currentEquation": "RIGHT"
+              "ioValue": "RIGHT_sep4",
+              "currentEquation": "RIGHT_sep4"
             }
           ],
           "type": "STL",
           "resolution": 96,
           "importIndex": 0,
-          "partName": "RIGHT"
+          "partName": "RIGHT_sep4"
         },
         {
           "atomType": "Export",
