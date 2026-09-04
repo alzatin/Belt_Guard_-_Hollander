@@ -71,7 +71,7 @@
     {
       "atomType": "GitHubMolecule",
       "x": 0.9,
-      "y": 0.2,
+      "y": 0.3,
       "uniqueID": "id-216",
       "name": "Dimension_Label",
       "ioValues": [
@@ -9213,7 +9213,7 @@
     {
       "atomType": "Molecule",
       "x": 0.8,
-      "y": 0.5,
+      "y": 0.4,
       "uniqueID": "id-6233",
       "name": "Side holders",
       "ioValues": [
