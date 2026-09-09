@@ -29,8 +29,7 @@
     },
     {
       "name": "pulleyBeltTolerance",
-      "ioValue": 0.5,
-      "currentEquation": ".5"
+      "ioValue": 0.5
     }
   ],
   "topLevel": true,
@@ -2492,8 +2491,7 @@
         },
         {
           "name": "GuardDepth",
-          "ioValue": 2.5,
-          "currentEquation": "2.5"
+          "ioValue": 2.5
         }
       ],
       "topLevel": false,
@@ -5908,13 +5906,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1.55,
-              "currentEquation": "1.55"
+              "ioValue": 1.55
             },
             {
               "name": "yDist",
-              "ioValue": 4.48,
-              "currentEquation": "4.48"
+              "ioValue": 4.48
             },
             {
               "name": "zDist",
@@ -6010,14 +6006,14 @@
                     "dimension": "3D",
                     "boundingBox": {
                       "min": [
-                        -4.45000015,
-                        -4.45000015,
-                        -1.5e-7
+                        -4.450000150000001,
+                        -4.450000150000001,
+                        -1.50000000444089e-7
                       ],
                       "max": [
-                        2.25000015,
-                        4.45000015,
-                        2.35000015
+                        2.2500001500000004,
+                        4.450000150000001,
+                        2.3500001500000005
                       ]
                     }
                   }
@@ -6332,13 +6328,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 2.54,
-              "currentEquation": "2.54"
+              "ioValue": 2.54
             },
             {
               "name": "yDist",
-              "ioValue": 4.29,
-              "currentEquation": "4.29"
+              "ioValue": 4.29
             },
             {
               "name": "zDist",
@@ -6756,13 +6750,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 10.54,
-              "currentEquation": "10.54"
+              "ioValue": 10.54
             },
             {
               "name": "yDist",
-              "ioValue": 2.86,
-              "currentEquation": "2.86"
+              "ioValue": 2.86
             },
             {
               "name": "zDist",
@@ -7161,13 +7153,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 9.55,
-              "currentEquation": "9.55"
+              "ioValue": 9.55
             },
             {
               "name": "yDist",
-              "ioValue": 3.04,
-              "currentEquation": "3.04"
+              "ioValue": 3.04
             },
             {
               "name": "zDist",
@@ -7527,13 +7517,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 9.928,
-              "currentEquation": "9.928"
+              "ioValue": 9.928
             },
             {
               "name": "yDist",
-              "ioValue": 2.99,
-              "currentEquation": "2.99"
+              "ioValue": 2.99
             },
             {
               "name": "zDist",
@@ -7853,13 +7841,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 1.92,
-              "currentEquation": "1.92"
+              "ioValue": 1.92
             },
             {
               "name": "yDist",
-              "ioValue": 4.43,
-              "currentEquation": "4.43"
+              "ioValue": 4.43
             },
             {
               "name": "zDist",
@@ -9308,18 +9294,15 @@
             },
             {
               "name": "xDist",
-              "ioValue": 5.5,
-              "currentEquation": "5.5"
+              "ioValue": 5.5
             },
             {
               "name": "yDist",
-              "ioValue": 1.1,
-              "currentEquation": "1.1"
+              "ioValue": 1.1
             },
             {
               "name": "zDist",
-              "ioValue": -1,
-              "currentEquation": "-1"
+              "ioValue": -1
             }
           ]
         },
@@ -10928,13 +10911,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": -8.5,
-              "currentEquation": "-8.5"
+              "ioValue": -8.5
             },
             {
               "name": "yDist",
-              "ioValue": 1.6,
-              "currentEquation": "1.6"
+              "ioValue": 1.6
             },
             {
               "name": "zDist",
@@ -11550,8 +11531,7 @@
           "ioValues": [
             {
               "name": "Length",
-              "ioValue": 0.5,
-              "currentEquation": "0.5"
+              "ioValue": 0.5
             }
           ],
           "topLevel": false,
@@ -12135,13 +12115,11 @@
             },
             {
               "name": "length",
-              "ioValue": 1.5,
-              "currentEquation": "1.5"
+              "ioValue": 1.5
             },
             {
               "name": "tolerance",
-              "ioValue": 0.02,
-              "currentEquation": "0.02"
+              "ioValue": 0.02
             },
             {
               "name": "Bolt head width",
@@ -13307,7 +13285,7 @@
     {
       "atomType": "Input",
       "x": 0,
-      "y": 0.7,
+      "y": 0.6,
       "uniqueID": "id-9571",
       "name": "pulleyBeltTolerance"
     }
