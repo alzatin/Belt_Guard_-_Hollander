@@ -332,7 +332,7 @@
     {
       "atomType": "Molecule",
       "x": 0.2,
-      "y": 0.8,
+      "y": 0.7,
       "uniqueID": "id-2740",
       "name": "Attachments-panel",
       "ioValues": [
@@ -2378,7 +2378,7 @@
     {
       "atomType": "Molecule",
       "x": 0.1,
-      "y": 0.3,
+      "y": 0.4,
       "uniqueID": "id-4",
       "name": "Full shape",
       "ioValues": [
@@ -5185,7 +5185,7 @@
     {
       "atomType": "Molecule",
       "x": 0.4,
-      "y": 0.3,
+      "y": 0.1,
       "uniqueID": "id-5481",
       "name": "AddsideLip",
       "ioValues": [
@@ -10914,7 +10914,7 @@
     {
       "atomType": "Molecule",
       "x": 0.7,
-      "y": 1,
+      "y": 0.9,
       "uniqueID": "id-6443",
       "name": "Side holders",
       "ioValues": [
